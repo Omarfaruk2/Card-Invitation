@@ -6,6 +6,7 @@
 
 .text {
     font: bold;
+    font-style: oblique;
 }
 
 .nav-last {
@@ -18,6 +19,7 @@
 
 .card-img {
     width: 250px;
+    font-style: oblique;
 }
 
 .cencle {
