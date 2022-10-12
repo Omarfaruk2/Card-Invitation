@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    font: bold;
+}
+
+.nav-last {
+    text-decoration: none;
+}
+
+.banner-image {
+    height: 350px;
+}
+
+.card-img {
+    width: 250px;
+}
+
+.cencle {
+    font-size: 16px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.innner-banner {
+    border-radius: 45px;
+}
+
+.shodaw {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.Features {
+    margin-top: 50vh;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .Features {
+        margin-top: 90vh;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width:992px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
